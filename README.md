@@ -6,7 +6,7 @@ This lab demonstrates how to manually configure router paths so different subnet
 Router
 
 1. Access Router:
-2. 
+   
 •	Enter privileged EXEC mode (to run advanced commands):
 
 enable
@@ -16,7 +16,7 @@ enable
 configure terminal
 
 2. Configure Interface IP Address:
-3. 
+   
 •	Enter interface configuration mode :
 
 	interface Ethernet0/0
@@ -31,14 +31,14 @@ no shutdown
 Configure all the router interface in similar way.
 
 3. Save Configuration:
-4. 
+   
 •	Save the current configuration to startup-config (to retain changes after reboot):
 
 	write 
 Or:
 copy running-config startup-config
 
-6. Exit Router Mode:
+4. Exit Router Mode:
    
 •	Exit to previous mode:
 
