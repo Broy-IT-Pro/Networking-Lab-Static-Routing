@@ -7,21 +7,27 @@ This lab demonstrates how to manually configure router paths so different subnet
 **1. Access Router:**
 **•	Enter privileged EXEC mode (to run advanced commands):**
 #	enable
+
 **•	Enter global configuration mode (to make configuration changes):**
 #configure terminal
+
 **2. Configure Interface IP Address:**
 **•	Enter interface configuration mode :**
 #	interface Ethernet0/0
+
 **•	Set IP address and subnet mask:**
 #	ip address 135.126.4.1 255.255.255.252
+
 **•	Enable the interface (if it’s administratively down):**
 #no shutdown
 Configure all the router interface in similar way.
+
 **3. Save Configuration:**
 **•	Save the current configuration to startup-config (to retain changes after reboot):**
 #	write 
 Or:
 #copy running-config startup-config
+
 **5. Exit Router Mode:**
 **•	Exit to previous mode:**
 #exit
@@ -38,6 +44,7 @@ Configure all the router interface in similar way.
  Configure PC IP address:**
 #	ip 135.126.3.2/24 135.126.3.1
 #	save
+
 **•	Check PC IP address:**
 #	Show ip
 •	Configure all the pc’s interface in similar way.
