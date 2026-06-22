@@ -1,6 +1,7 @@
 # Networking-Lab-Static-Routing
 
 Static routing is a manual way to tell a router which next hop to use to reach a remote network, the usual goal is to configure routes between LANs so devices can ping each other across routers. Static Route knows the exact location.
+
 This lab demonstrates how to manually configure router paths so different subnets can communicate without dynamic routing.
 
 Router
