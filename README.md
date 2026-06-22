@@ -3,9 +3,10 @@
 Static routing is a manual way to tell a router which next hop to use to reach a remote network, the usual goal is to configure routes between LANs so devices can ping each other across routers.
 This lab demonstrates how to manually configure router paths so different subnets can communicate without dynamic routing.
 
-Router
-1. Access Router:
-•	Enter privileged EXEC mode (to run advanced commands):
+#Router
+1#. Access Router:
+#•	Enter privileged EXEC mode (to run advanced commands):
+
 enable
 
 •	Enter global configuration mode (to make configuration changes):
